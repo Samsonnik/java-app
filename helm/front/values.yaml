@@ -11,5 +11,4 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: "nginx"
   path: "/"
-  host: ""
   pathType: Prefix
