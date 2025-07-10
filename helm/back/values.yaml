@@ -9,16 +9,16 @@ service:
   port: 8081
 
 envSecrets:
-  POSTGRES_HOST: ${env_POSTGRES_HOST}
-  POSTGRES_PORT: ${env_POSTGRES_PORT}
-  POSTGRES_USER: ${env_POSTGRES_USER}
-  POSTGRES_PASSWORD: ${env_POSTGRES_PASSWORD}
-  POSTGRES_DB: ${env_POSTGRES_DB}
-  REDIS_HOST: ${env_REDIS_HOST}
-  REDIS_PORT: ${env_REDIS_PORT}
-  REDIS_PASSWORD: ${env_REDIS_PASSWORD}
-  FLUENTD_ENABLED: ${env_FLUENTD_ENABLED}
-  FLUENTD_HOST: ${env_FLUENTD_HOST}
-  FLUENTD_PORT: ${env_FLUENTD_PORT}
-  SERVER_PORT: ${env_SERVER_PORT}
-  DEBUG: ${env_DEBUG}
+  POSTGRES_HOST:      "rc1a-vv6llmfjh7t4odab.mdb.yandexcloud.net"
+  POSTGRES_PORT:      "6432"
+  POSTGRES_USER:      "java_user"
+  POSTGRES_PASSWORD:  "java-Java"
+  POSTGRES_DB:        "java_db"
+  REDIS_HOST:         "fhmoimgjrf911oh7915c.auto.internal"
+  REDIS_PORT:         "6379"
+  REDIS_PASSWORD:     "redis"
+  FLUENTD_ENABLED:    "false"
+  FLUENTD_HOST:       "fluentd-aggregator.logging.svc.cluster.local"
+  FLUENTD_PORT:       "24224"
+  SERVER_PORT:        "8081"
+  DEBUG:              "true"
