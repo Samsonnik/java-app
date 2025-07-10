@@ -11,5 +11,5 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: "nginx"
   path: "/"
-  host: "api.domain.com"
+  host: "java-api.zapto.org"
   pathType: Prefix
